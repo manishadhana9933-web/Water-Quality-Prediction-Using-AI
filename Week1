@@ -1,0 +1,63 @@
+# 💧 Week 1 – Water Quality Prediction Using AI
+
+### 🌿 Theme: Sustainability (Environmental Protection & Clean Water)
+
+**Objective:**  
+To develop an AI model that predicts whether water is safe or unsafe for drinking based on various chemical and physical properties.
+
+---
+
+## 📅 Week 1 Tasks
+
+### 🔹 1. Problem Definition
+The goal of this project is to predict the **potability of water** (safe = 1, unsafe = 0) using machine learning techniques.  
+This supports sustainability by promoting clean and safe water consumption practices.
+
+### 🔹 2. Dataset Collection
+- **Dataset Name:** Water Potability Dataset  
+- **Source (Kaggle):** [https://www.kaggle.com/datasets/adityakadiwal/water-potability](https://www.kaggle.com/datasets/adityakadiwal/water-potability)  
+- **Attributes:**  
+  `pH`, `Hardness`, `Solids`, `Chloramines`, `Sulfate`, `Conductivity`, `Organic_carbon`, `Trihalomethanes`, `Turbidity`, `Potability`
+
+### 🔹 3. Data Preprocessing
+- Loaded dataset using `pandas`
+- Checked for missing and duplicate values  
+- Filled missing values with the column mean  
+- Removed duplicates if any  
+- Verified datatypes and basic statistics  
+
+### 🔹 4. Exploratory Data Analysis (EDA)
+- Visualized data distributions using **histograms and boxplots**  
+- Checked feature correlations using **heatmaps**  
+- Observed how each parameter affects water potability  
+
+### 🔹 5. Week 1 Deliverables
+- ✅ Problem statement and objective defined  
+- ✅ Dataset collected from Kaggle  
+- ✅ Data cleaned and preprocessed  
+- ✅ EDA completed with visualizations  
+- ✅ Insights noted for next week (Model Building)  
+
+---
+
+## 📊 Tools & Technologies
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
+- **Platform:** Jupyter Notebook / Google Colab  
+
+---
+
+## 📘 Insights from Week 1
+- pH, sulfate, and solids levels strongly affect whether water is potable.  
+- Visual analysis shows that safe water samples generally maintain balanced chemical levels.  
+
+---
+
+## 🧩 Next Week (Preview)
+In Week 2, the focus will be on **Model Selection & Building** — training machine learning models to predict water potability and comparing their accuracy.
+
+---
+
+**Submitted by:** Manish Adhana  
+**Internship:** AICTE–Edunet–Shell Green Skills using AI  
+**Duration:** 27 Oct – 27 Nov 2025
