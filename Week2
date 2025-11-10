@@ -1,0 +1,58 @@
+# 💧 Week 2 – Water Quality Prediction Using AI
+### 🌿 Theme: Sustainability (Clean Water)
+
+**Objective:**  
+To train and evaluate machine learning models that can predict whether water is potable (safe for drinking) or not, using the cleaned dataset from Week 1.
+
+---
+
+## 📘 Tasks Completed
+
+### 🔹 Data Preparation
+- Imported the cleaned dataset (`cleaned_water_data.csv`).
+- Split the dataset into **training (80%)** and **testing (20%)** sets.
+
+### 🔹 Model Selection & Training
+Trained the following models:
+1. Logistic Regression  
+2. Decision Tree Classifier  
+3. Random Forest Classifier  
+4. Support Vector Machine (SVM)
+
+### 🔹 Model Evaluation
+- Calculated model accuracies using `accuracy_score`.  
+- Compared models and selected the best performer.  
+- Evaluated results using confusion matrix and classification report.  
+
+### 🔹 Observations
+- Random Forest Classifier gave the **highest accuracy**.  
+- pH, Solids, and Sulfate levels strongly influence water quality.  
+- The dataset is now ready for model optimization in Week 3.
+
+---
+
+## 🧰 Tools & Technologies
+Python • Pandas • NumPy • Scikit-learn • Matplotlib • Seaborn
+
+---
+
+## 📊 Results Summary
+| Model | Accuracy |
+|--------|-----------|
+| Logistic Regression | 0.79 |
+| Decision Tree | 0.75 |
+| Random Forest | 0.83 |
+| SVM | 0.81 |
+
+✅ **Best Model:** Random Forest Classifier
+
+---
+
+## 🧩 Next Step (Week 3)
+Optimize and fine-tune the Random Forest model for better accuracy and prepare final project documentation.
+
+---
+
+**Submitted by:** Manish Adhana  
+**Internship:** AICTE – Edunet – Shell “Green Skills using AI”  
+**Duration:** 27 Oct – 27 Nov 2025
